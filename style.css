@@ -1,0 +1,50 @@
+
+body {
+  margin: 0;
+}
+
+
+ul, li {
+
+  padding: 0px;
+  margin: 0px;
+
+}
+
+
+#container {
+
+  padding: 15px;
+  margin: auto;
+
+}
+
+
+#divList {
+
+  margin-top: 25px;
+
+}
+
+.close {
+
+  position: absolute;
+  right: 0px;
+  top: 0px;
+
+}
+
+
+.close:hover {
+  
+  animation: spin 0.5s linear ;
+
+}
+
+@keyframes spin { 
+
+  100% { 
+  transform: rotate(360deg); transform:rotate(360deg); 
+  } 
+
+}
